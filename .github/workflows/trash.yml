@@ -2,7 +2,9 @@ name: 'produce trash 🗑️'
 
 # Run every hour on the hour
 on:
-  schedule: push
+  push:
+    branches:
+      - trunk
 
 jobs:
   build:
