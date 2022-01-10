@@ -2,8 +2,7 @@ name: 'produce trash 🗑️'
 
 # Run every hour on the hour
 on:
-  schedule:
-    - cron: '0 * * * *'
+  schedule: push
 
 jobs:
   build:
